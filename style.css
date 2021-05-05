@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titles{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.output{
+    display:flex;   
+    justify-content:space-around;
+    margin-top: 0;
+   
+}
+
+.results{
+    margin:50px;
+    font-size: 70px;
+}
+
+.player{
+width:30%;
+height:300px;
+background-color:rgba(128, 128, 128, 0.472);
+border:1px solid rgb(34, 34, 34);
+}
+
+.player.paper{
+background-image: url("paper.jpg");
+background-size:100% 100%;
+background-repeat: no-repeat;
+}
+.player.rock{
+background-image: url("rock.jpg");
+background-size:100% 100%;
+background-repeat: no-repeat;
+}
+.player.scissors{
+background-image: url("scissors.jpg");
+background-size:100% 100%;
+background-repeat: no-repeat;
+}
+
+
+.computer{
+    width:30%;
+    height:300px;
+    background-color:rgba(128, 128, 128, 0.397);
+    border:1px solid rgb(49, 48, 48);
+}
+.computer.paper{
+    background-image: url("paper.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    }
+    .computer.rock{
+    background-image: url("rock.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    }
+    .computer.scissors{
+    background-image: url("scissors.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    }
+.controls{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+    margin:0 auto;
+}
+
+
+
